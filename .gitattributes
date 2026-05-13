@@ -1,0 +1,4 @@
+# Normalize line endings on commit: always store as LF in the repo,
+# always check out as LF in the working tree (regardless of host OS).
+# Prevents CRLF/LF flips when clones happen on mixed Git Bash + WSL/Linux setups.
+* text=auto eol=lf
